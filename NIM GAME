@@ -1,0 +1,11 @@
+bool canWinNim(int n) {
+    int res=n%4;
+    if(res==0)
+    {
+        return false;
+    } 
+    else
+    {
+        return true;
+    }
+}
